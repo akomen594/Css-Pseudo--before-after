@@ -1,0 +1,41 @@
+body {
+    background:#231F20;
+    text-align: center;
+  }
+  
+  h1 {
+    color:#FFF;
+    font-family:'Oswald';
+    font-weight:700;
+    position: relative;  
+    margin: 30px auto;
+    text-transform:uppercase;
+    width: 34em;
+    text-align: center;
+  }
+  
+  h1::before{
+    content: '';
+    background-color: #4A90E2;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    margin-left: 6.7em;
+    margin-top: 0.2em;
+  }
+
+  h1::after{
+    content: '';
+    background-color: #4A90E2;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    margin-left: 26.5em;
+    margin-top: -1em;
+  }
